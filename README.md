@@ -68,13 +68,25 @@ Two kinds of page, and both matter:
 
 ## Run it
 
-```sh
-npx serve
-```
+You need [Node.js](https://nodejs.org/) first — installing it also gives you
+`npx`.
 
-Open the address it prints, usually http://localhost:3000, and stop the server
-with `Ctrl+C`. Do not open `index.html` by double-clicking: a `file://` page is
-not the Web.
+1. Open a terminal in this project's folder.
+2. Start the server:
+
+   ```sh
+   npx serve
+   ```
+
+3. Open the address it prints, usually http://localhost:3000.
+4. When you are done, stop the server with `Ctrl+C`.
+
+Do not open `index.html` by double-clicking: a `file://` page is not the Web,
+and the browser will refuse to fetch the JSON files.
+
+> ⚠️ **Keep Node.js updated.** Node runs JavaScript on your machine, so an
+> outdated copy is a security risk. Critical flaws are found and patched
+> regularly — update to the latest LTS as soon as you can.
 
 **What you need**
 
