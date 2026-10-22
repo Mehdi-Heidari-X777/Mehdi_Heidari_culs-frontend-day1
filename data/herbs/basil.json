@@ -1,0 +1,68 @@
+{
+  "name": "Basil",
+  "latin": "Ocimum basilicum",
+  "family": "Lamiaceae",
+  "description": "A tender annual with soft, glossy leaves that bruise sweetly when you brush past. Pinch the flowers to keep it leafy.",
+  "use": "Tomatoes, pesto and anything summery.",
+  "sun": "full sun",
+  "season": "summer",
+  "life": "annual",
+  "varieties": [
+    "Genovese Basil",
+    "Thai Basil",
+    "Purple Ruffles",
+    "Lemon Basil",
+    "Holy Basil (Tulsi)"
+  ],
+  "growing_conditions": {
+    "water_requirements": "Moderate to high; keep soil consistently moist but well-drained",
+    "soil_type": "Rich, moist, well-draining soil",
+    "soil_ph": "6.0 - 7.5",
+    "ideal_temperature_range": "18°C - 30°C (65°F - 85°F)",
+    "frost_tolerant": false,
+    "hardiness_zones": "2-11 (grown as annual), 10-11 (perennial in tropical climates)"
+  },
+  "planting": {
+    "method": "Seeds or cuttings",
+    "germination_time_days": "7 - 14",
+    "days_to_harvest": "50 - 75",
+    "spacing_cm": "20 - 30",
+    "companion_plants": [
+      "Tomatoes",
+      "Peppers",
+      "Oregano",
+      "Marigolds"
+    ],
+    "antagonistic_plants": [
+      "Rue",
+      "Sage"
+    ]
+  },
+  "harvest_and_storage": {
+    "harvest_method": "Pinch off top leaves just above a leaf node to encourage bushier growth",
+    "storage_fresh": "Store stems in a glass of water at room temperature",
+    "preservation_methods": [
+      "Freezing in oil",
+      "Drying",
+      "Pesto"
+    ]
+  },
+  "pests_and_diseases": {
+    "common_pests": [
+      "Aphids",
+      "Spider mites",
+      "Japanese beetles",
+      "Slugs"
+    ],
+    "common_diseases": [
+      "Fusarium wilt",
+      "Downy mildew",
+      "Root rot"
+    ]
+  },
+  "nutritional_highlights": [
+    "Vitamin K",
+    "Vitamin A",
+    "Antioxidants (Eugenol, Linalool)"
+  ]
+}

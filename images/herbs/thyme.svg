@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <rect width="400" height="300" rx="18" fill="#f1f4e8"/>
+
+  <defs>
+    <path id="tiny-leaf" d="M0 0 Q8 -8 0 -18 Q-8 -8 0 0 Z"/>
+  </defs>
+
+  <g stroke="#6d8c74" stroke-width="3" stroke-linecap="round" fill="none">
+    <path d="M200 226 C200 210 186 202 166 206"/>
+    <path d="M204 222 C212 204 228 196 248 202"/>
+    <path d="M200 214 C194 196 178 186 158 182"/>
+    <path d="M206 210 C214 192 230 180 248 172"/>
+    <path d="M198 200 C200 180 196 168 204 150"/>
+  </g>
+
+  <g fill="#4f8a58">
+    <use href="#tiny-leaf" transform="translate(196 212) rotate(-70)"/>
+    <use href="#tiny-leaf" transform="translate(206 208) rotate(70)"/>
+    <use href="#tiny-leaf" transform="translate(182 206) rotate(-80)"/>
+    <use href="#tiny-leaf" transform="translate(214 200) rotate(80)"/>
+    <use href="#tiny-leaf" transform="translate(170 200) rotate(-60)"/>
+    <use href="#tiny-leaf" transform="translate(236 196) rotate(60)"/>
+    <use href="#tiny-leaf" transform="translate(194 188) rotate(-30)"/>
+    <use href="#tiny-leaf" transform="translate(210 184) rotate(35)"/>
+    <use href="#tiny-leaf" transform="translate(198 168) rotate(-15)"/>
+  </g>
+  <g fill="#79a87c">
+    <use href="#tiny-leaf" transform="translate(202 220) rotate(-100)"/>
+    <use href="#tiny-leaf" transform="translate(212 214) rotate(100)"/>
+    <use href="#tiny-leaf" transform="translate(178 194) rotate(-45)"/>
+    <use href="#tiny-leaf" transform="translate(228 190) rotate(45)"/>
+    <use href="#tiny-leaf" transform="translate(202 156) rotate(10)"/>
+    <use href="#tiny-leaf" transform="translate(196 150) rotate(-20)"/>
+  </g>
+
+  <ellipse cx="200" cy="292" rx="80" ry="7" fill="#dfe9d8"/>
+  <path d="M156 236 H244 L236 282 Q235 290 227 290 H173 Q165 290 164 282 Z" fill="#c07a55"/>
+  <rect x="148" y="222" width="104" height="16" rx="5" fill="#d18f68"/>
+  <ellipse cx="200" cy="222" rx="44" ry="6" fill="#5b4636"/>
+</svg>

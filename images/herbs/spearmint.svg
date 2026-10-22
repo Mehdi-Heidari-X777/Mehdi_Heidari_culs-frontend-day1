@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <rect width="400" height="300" rx="18" fill="#e9f5ec"/>
+
+  <defs>
+    <path id="mint-leaf" d="M0 0 L6 -8 L2 -13 L10 -19 L6 -24 L14 -32 L10 -37 L16 -47 L10 -50 L12 -62 L4 -57 L0 -66 L-4 -57 L-12 -62 L-10 -50 L-16 -47 L-10 -37 L-14 -32 L-6 -24 L-10 -19 L-2 -13 L-6 -8 Z"/>
+  </defs>
+
+  <path d="M200 226 V122" stroke="#3f8a4a" stroke-width="4" stroke-linecap="round" fill="none"/>
+
+  <g fill="#3c8a4a">
+    <use href="#mint-leaf" transform="translate(199 206) rotate(-50) scale(0.85)"/>
+    <use href="#mint-leaf" transform="translate(201 178) rotate(50) scale(0.85)"/>
+    <use href="#mint-leaf" transform="translate(199 150) rotate(-50) scale(0.8)"/>
+  </g>
+  <g fill="#5aa865">
+    <use href="#mint-leaf" transform="translate(201 206) rotate(50) scale(0.85)"/>
+    <use href="#mint-leaf" transform="translate(199 178) rotate(-50) scale(0.85)"/>
+    <use href="#mint-leaf" transform="translate(201 150) rotate(50) scale(0.8)"/>
+    <use href="#mint-leaf" transform="translate(200 128) rotate(0) scale(0.72)"/>
+  </g>
+
+  <ellipse cx="200" cy="292" rx="80" ry="7" fill="#dfe9d8"/>
+  <path d="M156 236 H244 L236 282 Q235 290 227 290 H173 Q165 290 164 282 Z" fill="#c07a55"/>
+  <rect x="148" y="222" width="104" height="16" rx="5" fill="#d18f68"/>
+  <ellipse cx="200" cy="222" rx="44" ry="6" fill="#5b4636"/>
+</svg>

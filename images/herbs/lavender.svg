@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <rect width="400" height="300" rx="18" fill="#f2eefa"/>
+
+  <defs>
+    <path id="bud" d="M0 0 Q5 -6 0 -13 Q-5 -6 0 0 Z"/>
+    <path id="lav-leaf" d="M0 0 Q5 -12 0 -26 Q-5 -12 0 0 Z"/>
+  </defs>
+
+  <g stroke="#6d8c74" stroke-width="3" stroke-linecap="round" fill="none">
+    <path d="M176 226 C174 190 176 158 176 132"/>
+    <path d="M192 226 C190 186 192 150 192 110"/>
+    <path d="M208 226 C210 190 208 156 208 124"/>
+    <path d="M224 226 C226 192 224 168 224 146"/>
+  </g>
+
+  <g fill="#7f9d80">
+    <use href="#lav-leaf" transform="translate(175 214) rotate(-32)"/>
+    <use href="#lav-leaf" transform="translate(178 202) rotate(30)"/>
+    <use href="#lav-leaf" transform="translate(191 210) rotate(-34)"/>
+    <use href="#lav-leaf" transform="translate(194 196) rotate(28)"/>
+    <use href="#lav-leaf" transform="translate(207 212) rotate(-30)"/>
+    <use href="#lav-leaf" transform="translate(210 200) rotate(34)"/>
+    <use href="#lav-leaf" transform="translate(223 214) rotate(-28)"/>
+    <use href="#lav-leaf" transform="translate(226 202) rotate(32)"/>
+  </g>
+
+  <g fill="#8e6cc0">
+    <use href="#bud" transform="translate(176 132) rotate(-8)"/>
+    <use href="#bud" transform="translate(175 122) rotate(6)"/>
+    <use href="#bud" transform="translate(177 112) rotate(-6)"/>
+    <use href="#bud" transform="translate(176 102) rotate(8)"/>
+    <use href="#bud" transform="translate(176 92) rotate(-4)"/>
+
+    <use href="#bud" transform="translate(192 110) rotate(-8)"/>
+    <use href="#bud" transform="translate(191 100) rotate(6)"/>
+    <use href="#bud" transform="translate(193 90) rotate(-6)"/>
+    <use href="#bud" transform="translate(192 80) rotate(8)"/>
+
+    <use href="#bud" transform="translate(208 124) rotate(-6)"/>
+    <use href="#bud" transform="translate(209 114) rotate(8)"/>
+    <use href="#bud" transform="translate(207 104) rotate(-8)"/>
+    <use href="#bud" transform="translate(208 94) rotate(6)"/>
+
+    <use href="#bud" transform="translate(224 146) rotate(8)"/>
+    <use href="#bud" transform="translate(223 136) rotate(-6)"/>
+    <use href="#bud" transform="translate(225 126) rotate(8)"/>
+    <use href="#bud" transform="translate(224 116) rotate(-6)"/>
+  </g>
+  <g fill="#a98fd6">
+    <use href="#bud" transform="translate(177 127) rotate(6)"/>
+    <use href="#bud" transform="translate(176 107) rotate(-8)"/>
+    <use href="#bud" transform="translate(192 105) rotate(8)"/>
+    <use href="#bud" transform="translate(192 85) rotate(-4)"/>
+    <use href="#bud" transform="translate(208 119) rotate(6)"/>
+    <use href="#bud" transform="translate(208 99) rotate(-8)"/>
+    <use href="#bud" transform="translate(224 141) rotate(-6)"/>
+    <use href="#bud" transform="translate(224 121) rotate(4)"/>
+  </g>
+
+  <ellipse cx="200" cy="292" rx="80" ry="7" fill="#dfe9d8"/>
+  <path d="M156 236 H244 L236 282 Q235 290 227 290 H173 Q165 290 164 282 Z" fill="#c07a55"/>
+  <rect x="148" y="222" width="104" height="16" rx="5" fill="#d18f68"/>
+  <ellipse cx="200" cy="222" rx="44" ry="6" fill="#5b4636"/>
+</svg>

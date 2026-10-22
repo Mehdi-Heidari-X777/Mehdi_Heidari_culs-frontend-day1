@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <rect width="400" height="300" rx="18" fill="#edf2ee"/>
+
+  <defs>
+    <path id="needle" d="M0 0 Q4 -14 0 -30 Q-4 -14 0 0 Z"/>
+  </defs>
+
+  <g stroke="#6d8c74" stroke-width="3" stroke-linecap="round" fill="none">
+    <path d="M174 228 C172 190 176 150 172 112"/>
+    <path d="M200 228 C202 184 198 146 202 96"/>
+    <path d="M226 228 C228 192 224 156 228 120"/>
+  </g>
+
+  <g fill="#4a7c53">
+    <use href="#needle" transform="translate(173 206) rotate(-45)"/>
+    <use href="#needle" transform="translate(175 206) rotate(45)"/>
+    <use href="#needle" transform="translate(173 166) rotate(-45)"/>
+    <use href="#needle" transform="translate(175 166) rotate(45)"/>
+    <use href="#needle" transform="translate(173 128) rotate(-45)"/>
+    <use href="#needle" transform="translate(175 128) rotate(45)"/>
+    <use href="#needle" transform="translate(199 210) rotate(-45)"/>
+    <use href="#needle" transform="translate(201 210) rotate(45)"/>
+    <use href="#needle" transform="translate(199 166) rotate(-45)"/>
+    <use href="#needle" transform="translate(201 166) rotate(45)"/>
+    <use href="#needle" transform="translate(199 124) rotate(-45)"/>
+    <use href="#needle" transform="translate(201 124) rotate(45)"/>
+    <use href="#needle" transform="translate(225 206) rotate(-45)"/>
+    <use href="#needle" transform="translate(227 206) rotate(45)"/>
+    <use href="#needle" transform="translate(225 166) rotate(-45)"/>
+    <use href="#needle" transform="translate(227 166) rotate(45)"/>
+    <use href="#needle" transform="translate(225 132) rotate(-45)"/>
+    <use href="#needle" transform="translate(227 132) rotate(45)"/>
+  </g>
+  <g fill="#6a9a70">
+    <use href="#needle" transform="translate(173 186) rotate(-45)"/>
+    <use href="#needle" transform="translate(175 186) rotate(45)"/>
+    <use href="#needle" transform="translate(173 146) rotate(-45)"/>
+    <use href="#needle" transform="translate(175 146) rotate(45)"/>
+    <use href="#needle" transform="translate(199 188) rotate(-45)"/>
+    <use href="#needle" transform="translate(201 188) rotate(45)"/>
+    <use href="#needle" transform="translate(199 144) rotate(-45)"/>
+    <use href="#needle" transform="translate(201 144) rotate(45)"/>
+    <use href="#needle" transform="translate(225 186) rotate(-45)"/>
+    <use href="#needle" transform="translate(227 186) rotate(45)"/>
+    <use href="#needle" transform="translate(225 146) rotate(-45)"/>
+    <use href="#needle" transform="translate(227 146) rotate(45)"/>
+  </g>
+
+  <g fill="#b8c7e6">
+    <circle cx="168" cy="108" r="4"/>
+    <circle cx="176" cy="102" r="3.5"/>
+    <circle cx="183" cy="110" r="3"/>
+    <circle cx="198" cy="92" r="4"/>
+    <circle cx="207" cy="98" r="3.5"/>
+    <circle cx="192" cy="88" r="3"/>
+    <circle cx="230" cy="116" r="4"/>
+    <circle cx="238" cy="122" r="3"/>
+  </g>
+
+  <ellipse cx="200" cy="292" rx="80" ry="7" fill="#dfe9d8"/>
+  <path d="M156 236 H244 L236 282 Q235 290 227 290 H173 Q165 290 164 282 Z" fill="#c07a55"/>
+  <rect x="148" y="222" width="104" height="16" rx="5" fill="#d18f68"/>
+  <ellipse cx="200" cy="222" rx="44" ry="6" fill="#5b4636"/>
+</svg>

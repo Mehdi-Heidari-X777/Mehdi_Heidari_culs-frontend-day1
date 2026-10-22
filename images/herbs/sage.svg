@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <rect width="400" height="300" rx="18" fill="#eff3ed"/>
+
+  <defs>
+    <path id="sage-leaf" d="M0 0 C-20 -8 -28 -30 0 -52 C28 -30 20 -8 0 0 Z"/>
+  </defs>
+
+  <g stroke="#6d8c74" stroke-width="4" stroke-linecap="round" fill="none">
+    <path d="M200 226 V152"/>
+    <path d="M200 192 C188 186 178 178 172 166"/>
+    <path d="M200 178 C212 172 222 164 228 152"/>
+  </g>
+
+  <g fill="#8aa98f">
+    <use href="#sage-leaf" transform="translate(200 214) rotate(-40) scale(0.95)"/>
+    <use href="#sage-leaf" transform="translate(200 214) rotate(40) scale(0.95)"/>
+    <use href="#sage-leaf" transform="translate(200 154) rotate(0) scale(0.7)"/>
+  </g>
+  <g fill="#9db8a0">
+    <use href="#sage-leaf" transform="translate(200 182) rotate(-45) scale(0.8)"/>
+    <use href="#sage-leaf" transform="translate(200 182) rotate(45) scale(0.8)"/>
+  </g>
+
+  <g stroke="#7d9e83" stroke-width="1.5" stroke-linecap="round" fill="none">
+    <path d="M181 199 C190 205 194 210 196 213"/>
+    <path d="M219 199 C210 205 206 210 204 213"/>
+    <path d="M183 173 C191 178 195 182 197 185"/>
+    <path d="M217 173 C209 178 205 182 203 185"/>
+  </g>
+
+  <ellipse cx="200" cy="292" rx="80" ry="7" fill="#dfe9d8"/>
+  <path d="M156 236 H244 L236 282 Q235 290 227 290 H173 Q165 290 164 282 Z" fill="#c07a55"/>
+  <rect x="148" y="222" width="104" height="16" rx="5" fill="#d18f68"/>
+  <ellipse cx="200" cy="222" rx="44" ry="6" fill="#5b4636"/>
+</svg>
