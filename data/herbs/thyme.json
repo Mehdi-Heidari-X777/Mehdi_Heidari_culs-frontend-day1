@@ -6,5 +6,58 @@
   "use": "Soups and stews. Bees love its flowers.",
   "sun": "full sun",
   "season": "spring to autumn",
-  "life": "perennial"
+  "life": "perennial",
+  "varieties": [
+    "English Thyme",
+    "Lemon Thyme",
+    "Creeping Thyme",
+    "Woolly Thyme"
+  ],
+  "growing_conditions": {
+    "water_requirements": "Low; very drought-tolerant",
+    "soil_type": "Gritty, sandy, well-draining soil",
+    "soil_ph": "6.0 - 8.0",
+    "ideal_temperature_range": "10°C - 27°C (50°F - 80°F)",
+    "frost_tolerant": true,
+    "hardiness_zones": "5-9"
+  },
+  "planting": {
+    "method": "Seed, cuttings or division",
+    "germination_time_days": "14 - 28",
+    "days_to_harvest": "70 - 90",
+    "spacing_cm": "20 - 30",
+    "companion_plants": [
+      "Cabbage",
+      "Strawberries",
+      "Tomatoes",
+      "Lavender"
+    ],
+    "antagonistic_plants": [
+      "Basil"
+    ]
+  },
+  "harvest_and_storage": {
+    "harvest_method": "Cut leafy stems just before the plant flowers",
+    "storage_fresh": "Wrap in a damp paper towel in the fridge",
+    "preservation_methods": [
+      "Drying",
+      "Freezing",
+      "Thyme-infused vinegar"
+    ]
+  },
+  "pests_and_diseases": {
+    "common_pests": [
+      "Aphids",
+      "Spider mites"
+    ],
+    "common_diseases": [
+      "Root rot",
+      "Botrytis"
+    ]
+  },
+  "nutritional_highlights": [
+    "Vitamin C",
+    "Vitamin A",
+    "Thymol (antiseptic)"
+  ]
 }

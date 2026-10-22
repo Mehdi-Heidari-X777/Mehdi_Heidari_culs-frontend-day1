@@ -239,6 +239,39 @@ footer {
   margin-bottom: 0;
 }
 
+.fact-list {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.fact-list li {
+  margin: 0.15rem 0;
+}
+
+.nested {
+  margin: 0.25rem 0 0;
+  padding: 0.75rem 1rem;
+  border-left: 3px solid var(--line);
+  background: var(--paper);
+}
+
+.nested dt {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--soil);
+}
+
+.nested dd {
+  margin: 0.15rem 0 0.5rem;
+  font-size: 0.9375rem;
+}
+
+.nested dd:last-child {
+  margin-bottom: 0;
+}
+
 .data-link {
   margin: 1.5rem 0 0;
   font-size: 0.9375rem;

@@ -6,5 +6,59 @@
   "use": "Potatoes, bread and roast vegetables.",
   "sun": "full sun",
   "season": "all year",
-  "life": "perennial"
+  "life": "perennial",
+  "varieties": [
+    "Tuscan Blue",
+    "Arp",
+    "Prostratus (trailing)",
+    "Barbecue"
+  ],
+  "growing_conditions": {
+    "water_requirements": "Low; drought-tolerant once established, let the soil dry between waterings",
+    "soil_type": "Sandy, well-draining soil",
+    "soil_ph": "6.0 - 7.5",
+    "ideal_temperature_range": "10°C - 27°C (50°F - 80°F)",
+    "frost_tolerant": true,
+    "hardiness_zones": "7-10"
+  },
+  "planting": {
+    "method": "Cuttings or seed (seed is slow)",
+    "germination_time_days": "14 - 21",
+    "days_to_harvest": "80 - 100",
+    "spacing_cm": "60 - 90",
+    "companion_plants": [
+      "Sage",
+      "Thyme",
+      "Cabbage",
+      "Beans"
+    ],
+    "antagonistic_plants": [
+      "Basil"
+    ]
+  },
+  "harvest_and_storage": {
+    "harvest_method": "Snip sprigs as needed, never more than a third of the plant",
+    "storage_fresh": "Wrap in a damp paper towel in the fridge",
+    "preservation_methods": [
+      "Drying",
+      "Freezing whole sprigs",
+      "Infused oil"
+    ]
+  },
+  "pests_and_diseases": {
+    "common_pests": [
+      "Spider mites",
+      "Whiteflies",
+      "Mealybugs"
+    ],
+    "common_diseases": [
+      "Powdery mildew",
+      "Root rot"
+    ]
+  },
+  "nutritional_highlights": [
+    "Iron",
+    "Calcium",
+    "Rosmarinic acid (antioxidant)"
+  ]
 }

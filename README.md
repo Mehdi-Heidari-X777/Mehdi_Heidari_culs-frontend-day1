@@ -37,6 +37,19 @@ Click a picture or a page link to open that herb; the last column opens its JSON
 | [![Chamomile](images/herbs/chamomile.svg)](herbs/chamomile.html) | **Chamomile** — *Matricaria chamomilla* — daisy-like flowers that bloom more the more you pick | annual | [Open](herbs/chamomile.html) | [JSON](data/herbs/chamomile.json) |
 | [![Chives](images/herbs/chives.svg)](herbs/chives.html) | **Chives** — *Allium schoenoprasum* — hollow grassy leaves and edible pink pompoms | perennial | [Open](herbs/chives.html) | [JSON](data/herbs/chives.json) |
 
+### At a glance
+
+One line per herb: life, sun, season, and what it is good for.
+
+- **Basil** (*Ocimum basilicum*) — annual · full sun · summer · tomatoes, pesto and anything summery.
+- **Spearmint** (*Mentha spicata*) — perennial · full sun to part shade · spring to autumn · fresh tea, and it spreads everywhere.
+- **Rosemary** (*Salvia rosmarinus*) — perennial · full sun · all year · potatoes, bread and roast vegetables.
+- **Thyme** (*Thymus vulgaris*) — perennial · full sun · spring to autumn · soups and stews; bees love the flowers.
+- **Lavender** (*Lavandula angustifolia*) — perennial · full sun · summer · scent for the wardrobe, a feast for bees.
+- **Sage** (*Salvia officinalis*) — perennial · full sun · spring to autumn · butter sauces and tea.
+- **Chamomile** (*Matricaria chamomilla*) — annual · full sun · summer · a calming cup of tea.
+- **Chives** (*Allium schoenoprasum*) — perennial · full sun to part shade · spring to summer · bread and butter, eggs, potatoes.
+
 ## The pages
 
 Two kinds of page, and both matter:
@@ -46,9 +59,12 @@ Two kinds of page, and both matter:
   JSON), and the Visit and About sections.
 - **Herb pages** — [herbs/](herbs): one file per herb. Each page names its herb
   with `data-herb`, and [app.js](app.js) fetches `data/herbs/<slug>.json` to
-  render the illustration, common and latin name, description, facts box
-  (family, kitchen use, sun, season, life) and a link to that JSON. Editing the
-  JSON changes the card and the page. Example: [basil.html](herbs/basil.html).
+  render the illustration, common and latin name, description, and a facts box
+  that walks every field in the JSON: family, kitchen use, sun, season, life,
+  varieties, growing conditions, planting, harvest & storage, pests & diseases
+  and nutritional highlights. Nested objects become their own group and arrays
+  become lists. Editing the JSON changes the card and the page.
+  Example: [basil.html](herbs/basil.html).
 
 ## Run it
 
@@ -109,7 +125,8 @@ The three names must agree, because `app.js` derives them from the herb name:
 
 ## Your mission
 
-Something was wrong. Several things, in fact. Work one problem at a time:
+The original day-1 exercise shipped with a few deliberate bugs, and they are all
+fixed here. Use the same loop to keep practising:
 
 1. Inspect before you change anything: the page, the Console, the Network panel, the Inspector (`Ctrl+Shift+I`).
 2. Pick one problem and find out why it happens.

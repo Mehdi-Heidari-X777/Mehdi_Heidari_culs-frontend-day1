@@ -7,12 +7,27 @@
 
 const SAFE_SLUG = /^[a-z0-9-]+$/
 
-const FACTS = [
-  ["Family", "family"],
-  ["In the kitchen", "use"],
-  ["Sun", "sun"],
-  ["Season", "season"],
-]
+const LABELS = {
+  family: "Family",
+  use: "In the kitchen",
+  sun: "Sun",
+  season: "Season",
+  life: "Life",
+  varieties: "Varieties",
+  growing_conditions: "Growing conditions",
+  planting: "Planting",
+  harvest_and_storage: "Harvest & storage",
+  pests_and_diseases: "Pests & diseases",
+  nutritional_highlights: "Nutritional highlights",
+}
+
+const SKIP = new Set(["name", "latin", "description"])
+
+function humanize(key) {
+  return key
+    .replace(/[-_]+/g, " ")
+    .replace(/\b\w/g, (letter) => letter.toUpperCase())
+}
 
 function slugify(name) {
   return name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "")
@@ -35,25 +50,59 @@ function picture(className, src, alt) {
   return img
 }
 
+// Turn one JSON value into a DOM node a <dd> can hold.
+function valueNode(value) {
+  if (typeof value === "boolean") {
+    return document.createTextNode(value ? "Yes" : "No")
+  }
+  if (Array.isArray(value)) {
+    const list = element("ul", "fact-list", "")
+    for (const item of value) {
+      const li = element("li", "", "")
+      li.append(valueNode(item))
+      list.append(li)
+    }
+    return list
+  }
+  if (value !== null && typeof value === "object") {
+    return factGroup(value)
+  }
+  return document.createTextNode(String(value))
+}
+
 function fact(term, value) {
   const dd = element("dd", "", "")
-  if (typeof value === "string") {
-    dd.textContent = value
-  } else {
-    dd.append(value)
-  }
+  dd.append(value)
   return [element("dt", "", term), dd]
 }
 
-function factsOf(herb, className) {
-  const facts = element("dl", className, "")
-  for (const [term, key] of FACTS) {
-    if (herb[key]) {
-      facts.append(...fact(term, herb[key]))
+// Nested facts for one object, e.g. "growing_conditions".
+function factGroup(obj) {
+  const list = element("dl", "nested", "")
+  for (const [key, value] of Object.entries(obj)) {
+    if (value === undefined || value === null || value === "") {
+      continue
     }
+    list.append(...fact(humanize(key), valueNode(value)))
   }
-  if (herb.life) {
-    facts.append(...fact("Life", element("span", "life", herb.life)))
+  return list
+}
+
+function allFacts(herb, className, brief = false) {
+  const facts = element("dl", className, "")
+  for (const [key, value] of Object.entries(herb)) {
+    if (SKIP.has(key) || value === undefined || value === null || value === "") {
+      continue
+    }
+    // Cards keep it short: leave the nested objects and arrays to the page.
+    if (brief && (Array.isArray(value) || (value !== null && typeof value === "object"))) {
+      continue
+    }
+    const term = LABELS[key] ?? humanize(key)
+    const display = key === "life"
+      ? element("span", "life", String(value))
+      : valueNode(value)
+    facts.append(...fact(term, display))
   }
   return facts
 }
@@ -90,7 +139,7 @@ function card(slug, herb) {
   if (herb.description) {
     body.append(element("p", "description", herb.description))
   }
-  body.append(factsOf(herb, "facts card-facts"))
+  body.append(allFacts(herb, "facts card-facts", true))
 
   link.append(picture("card-picture", `images/herbs/${slug}.svg`, ""), body)
   item.append(link)
@@ -135,7 +184,7 @@ function fillHerb(article, slug, herb) {
   if (herb.description) {
     parts.push(element("p", "herb-intro", herb.description))
   }
-  parts.push(factsOf(herb, "facts"), dataLink(slug))
+  parts.push(allFacts(herb, "facts"), dataLink(slug))
 
   article.replaceChildren(...parts)
 }

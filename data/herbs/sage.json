@@ -6,5 +6,59 @@
   "use": "Butter sauces and tea.",
   "sun": "full sun",
   "season": "spring to autumn",
-  "life": "perennial"
+  "life": "perennial",
+  "varieties": [
+    "Common Sage",
+    "Purple Sage",
+    "Tricolor Sage",
+    "Berggarten"
+  ],
+  "growing_conditions": {
+    "water_requirements": "Low to moderate; drought-tolerant",
+    "soil_type": "Well-draining, sandy or loamy soil",
+    "soil_ph": "6.0 - 7.0",
+    "ideal_temperature_range": "15°C - 26°C (60°F - 80°F)",
+    "frost_tolerant": true,
+    "hardiness_zones": "4-8"
+  },
+  "planting": {
+    "method": "Cuttings or seed",
+    "germination_time_days": "10 - 21",
+    "days_to_harvest": "75 - 90",
+    "spacing_cm": "45 - 60",
+    "companion_plants": [
+      "Rosemary",
+      "Thyme",
+      "Cabbage",
+      "Carrots"
+    ],
+    "antagonistic_plants": [
+      "Cucumbers"
+    ]
+  },
+  "harvest_and_storage": {
+    "harvest_method": "Pick leaves as needed, before the plant flowers for the best flavour",
+    "storage_fresh": "Wrap in a paper towel in the fridge",
+    "preservation_methods": [
+      "Drying",
+      "Freezing",
+      "Sage butter"
+    ]
+  },
+  "pests_and_diseases": {
+    "common_pests": [
+      "Slugs",
+      "Spider mites",
+      "Thrips"
+    ],
+    "common_diseases": [
+      "Powdery mildew",
+      "Root rot"
+    ]
+  },
+  "nutritional_highlights": [
+    "Vitamin K",
+    "Vitamin B6",
+    "Antioxidants"
+  ]
 }

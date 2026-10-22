@@ -6,5 +6,59 @@
   "use": "Fresh tea, and it spreads everywhere.",
   "sun": "full sun to part shade",
   "season": "spring to autumn",
-  "life": "perennial"
+  "life": "perennial",
+  "varieties": [
+    "Kentucky Colonel",
+    "Curly Mint",
+    "Mojito Mint",
+    "Scotch Spearmint"
+  ],
+  "growing_conditions": {
+    "water_requirements": "Consistent moisture; mint likes damp but not waterlogged soil",
+    "soil_type": "Rich, moist, well-draining soil",
+    "soil_ph": "6.0 - 7.0",
+    "ideal_temperature_range": "13°C - 21°C (55°F - 70°F)",
+    "frost_tolerant": true,
+    "hardiness_zones": "3-11"
+  },
+  "planting": {
+    "method": "Cuttings or runners (it spreads quickly)",
+    "germination_time_days": "10 - 15",
+    "days_to_harvest": "60 - 90",
+    "spacing_cm": "45 - 60",
+    "companion_plants": [
+      "Cabbage",
+      "Tomatoes",
+      "Peas"
+    ],
+    "antagonistic_plants": [
+      "Parsley"
+    ]
+  },
+  "harvest_and_storage": {
+    "harvest_method": "Cut stems just above a leaf pair, before it flowers",
+    "storage_fresh": "Stand stems in a glass of water",
+    "preservation_methods": [
+      "Drying",
+      "Freezing in ice cubes",
+      "Mint syrup"
+    ]
+  },
+  "pests_and_diseases": {
+    "common_pests": [
+      "Aphids",
+      "Spider mites",
+      "Mint flea beetles"
+    ],
+    "common_diseases": [
+      "Powdery mildew",
+      "Mint rust",
+      "Root rot"
+    ]
+  },
+  "nutritional_highlights": [
+    "Vitamin A",
+    "Manganese",
+    "Menthol (digestive aid)"
+  ]
 }

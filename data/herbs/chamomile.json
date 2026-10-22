@@ -6,5 +6,55 @@
   "use": "A calming cup of tea.",
   "sun": "full sun",
   "season": "summer",
-  "life": "annual"
+  "life": "annual",
+  "varieties": [
+    "German Chamomile (Matricaria chamomilla)",
+    "Roman Chamomile (Chamaemelum nobile)"
+  ],
+  "growing_conditions": {
+    "water_requirements": "Moderate; keep soil lightly moist",
+    "soil_type": "Light, well-draining soil",
+    "soil_ph": "5.6 - 7.5",
+    "ideal_temperature_range": "15°C - 21°C (60°F - 70°F)",
+    "frost_tolerant": true,
+    "hardiness_zones": "4-9"
+  },
+  "planting": {
+    "method": "Seed (surface-sow, it needs light to germinate)",
+    "germination_time_days": "7 - 14",
+    "days_to_harvest": "60 - 90",
+    "spacing_cm": "20 - 25",
+    "companion_plants": [
+      "Cabbage",
+      "Onions",
+      "Cucumbers"
+    ],
+    "antagonistic_plants": [
+      "Mint"
+    ]
+  },
+  "harvest_and_storage": {
+    "harvest_method": "Snip open flower heads on a dry morning",
+    "storage_fresh": "Dry the whole flower heads on a screen",
+    "preservation_methods": [
+      "Drying",
+      "Chamomile tea",
+      "Infused oil"
+    ]
+  },
+  "pests_and_diseases": {
+    "common_pests": [
+      "Aphids",
+      "Thrips"
+    ],
+    "common_diseases": [
+      "Powdery mildew",
+      "Damping off"
+    ]
+  },
+  "nutritional_highlights": [
+    "Apigenin (antioxidant)",
+    "Calcium",
+    "Magnesium"
+  ]
 }

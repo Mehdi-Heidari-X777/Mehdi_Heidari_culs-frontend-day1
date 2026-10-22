@@ -6,5 +6,57 @@
   "use": "Bread and butter, eggs, potatoes.",
   "sun": "full sun to part shade",
   "season": "spring to summer",
-  "life": "perennial"
+  "life": "perennial",
+  "varieties": [
+    "Common Chives",
+    "Garlic Chives (Allium tuberosum)",
+    "Grolau"
+  ],
+  "growing_conditions": {
+    "water_requirements": "Moderate; keep soil evenly moist",
+    "soil_type": "Rich, moist, well-draining soil",
+    "soil_ph": "6.0 - 7.0",
+    "ideal_temperature_range": "15°C - 24°C (60°F - 75°F)",
+    "frost_tolerant": true,
+    "hardiness_zones": "3-9"
+  },
+  "planting": {
+    "method": "Seed or division",
+    "germination_time_days": "10 - 14",
+    "days_to_harvest": "60 - 90",
+    "spacing_cm": "15 - 20",
+    "companion_plants": [
+      "Carrots",
+      "Tomatoes",
+      "Roses"
+    ],
+    "antagonistic_plants": [
+      "Beans",
+      "Peas"
+    ]
+  },
+  "harvest_and_storage": {
+    "harvest_method": "Snip leaves with scissors, about 2.5 cm above the soil",
+    "storage_fresh": "Wrap in a damp towel in the fridge",
+    "preservation_methods": [
+      "Freezing",
+      "Chive blossom vinegar",
+      "Drying"
+    ]
+  },
+  "pests_and_diseases": {
+    "common_pests": [
+      "Thrips",
+      "Onion flies"
+    ],
+    "common_diseases": [
+      "Downy mildew",
+      "Leaf spot"
+    ]
+  },
+  "nutritional_highlights": [
+    "Vitamin K",
+    "Vitamin C",
+    "Allicin"
+  ]
 }
